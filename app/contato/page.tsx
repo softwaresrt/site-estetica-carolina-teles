@@ -1,0 +1,2 @@
+import {site} from '@/content/site';import {AppointmentForm} from '@/components/AppointmentForm';
+export default function ContactPage(){return <div className="inner-page appointment-page"><div className="container"><div><span className="eyebrow eyebrow-light">FALE COM A GENTE</span><h1>Estamos<br/><em>aqui.</em></h1><p>{site.address}</p><a href={site.mapUrl} target="_blank" rel="noopener noreferrer" className="link-underlined light">Ver no Google Maps ↗</a></div><AppointmentForm/></div></div>}

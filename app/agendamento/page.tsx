@@ -1,0 +1,2 @@
+import {AppointmentForm} from '@/components/AppointmentForm';
+export default function SchedulingPage(){return <div className="inner-page appointment-page"><div className="container"><div><span className="eyebrow eyebrow-light">A PRÓXIMA CONVERSA</span><h1>Reserve um<br/><em>momento seu.</em></h1><p>Prepare uma solicitação simples. A equipe confirma horários e orientações pelo WhatsApp.</p></div><AppointmentForm/></div></div>}

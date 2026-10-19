@@ -1,0 +1,5 @@
+'use client';
+import { whatsappLink } from '@/lib/whatsapp';
+export function WhatsAppFloatingButton(){return <a href={whatsappLink()} target="_blank" rel="noopener noreferrer" className="whatsapp-float" aria-label="Conversar no WhatsApp" title="Conversar no WhatsApp">
+<svg viewBox="0 0 32 32" aria-hidden="true" fill="currentColor"><path d="M16 .9A15 15 0 0 0 3.05 23.48L.9 31.1l7.84-2.06A15.1 15.1 0 1 0 16 .9Zm0 27.25a12.2 12.2 0 0 1-6.24-1.71l-.45-.27-4.65 1.23 1.24-4.52-.3-.47A12.23 12.23 0 1 1 16 28.15Zm6.7-9.13c-.37-.19-2.19-1.08-2.52-1.2-.34-.13-.58-.19-.82.18-.24.37-.95 1.2-1.17 1.45-.21.24-.43.27-.8.09-.37-.19-1.55-.57-2.95-1.83-1.09-.97-1.83-2.17-2.04-2.53-.21-.37-.02-.57.16-.75.16-.16.37-.42.56-.64.18-.21.24-.37.36-.61.12-.24.06-.46-.03-.65-.09-.19-.82-1.98-1.13-2.71-.29-.7-.59-.61-.82-.62H9.3c-.24 0-.64.09-.97.46-.33.37-1.27 1.24-1.27 3.03s1.3 3.52 1.48 3.77c.19.25 2.55 3.9 6.18 5.47.86.37 1.53.59 2.06.75.87.28 1.66.24 2.29.15.7-.1 2.19-.89 2.49-1.75.31-.86.31-1.59.22-1.75-.1-.15-.34-.24-.71-.43Z"/></svg>
+<span className="wa-tooltip">Vamos conversar?</span></a>}

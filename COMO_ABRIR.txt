@@ -1,0 +1,19 @@
+CAROLINA TELES — SITE PREMIUM
+==================================
+
+VISUALIZAÇÃO IMEDIATA
+Abra o arquivo preview.html (sem instalar nada).
+Esta é uma demonstração interativa do layout com fotos reais.
+
+VERSÃO REACT / NEXT.JS
+1. Abra Terminal dentro desta pasta.
+2. Rode: cp .env.example .env.local
+3. Rode: npm install
+4. Rode: npm run dev
+5. Visite http://localhost:3000
+
+Leia README.md para checar o que já está implementado e o que
+precisa ser validado/configurado antes da publicação.
+
+WhatsApp: (81) 98859-0930
+Local: Av. Gen. Manoel Rabelo, 5117, Sucupira, Jaboatão dos Guararapes/PE.
